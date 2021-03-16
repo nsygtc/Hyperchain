@@ -3,7 +3,7 @@ pragma solidity ^0.4.15;
 
 /// @title Framework示例合约
 /// @notice 便于有一定基础的开发者熟悉一般业务逻辑的合约
-/// @author blocface
+/// @author blocface checkpass
 contract Framework {
     /// @notice 部署的时候被调用，保存合约部署者，并将合约部署者设置为合约管理员角色
     /// @dev 合约构造函数，可用于初始化合约状态变量。msg.sender表示当前交易发起方的账户地址，在构造函数中即为合约部署者
